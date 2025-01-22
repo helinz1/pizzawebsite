@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+     background-image:url("pizzaa.jpg");
+     background-repeat: no-repeat;   
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 400px;
+}
+.navbar ul{
+    display: flex;
+    color: white;
+    list-style: none;
+   
+}
+.navbar ul li{
+    display: block;
+    position: relative;
+    right: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: red;
+    transition: 0.5s;
+}
+.navbar .icons{
+    color: white;
+    padding-right: 380px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar .icons i:hover{
+    color: red;
+    transition: 0.5s;
+}
+/*********************************************************FİRST PAGE ****************************************************************/
+.firstpage{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 250px 100px;
+    font-weight: bold;
+    
+}
+.firstpage h1{
+    font-size: 100px;
+}
+.firstpage h4{
+    font-size: 25px;
+}
+.firstpage button{
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color:rgb(117, 208, 7);
+    margin: auto;
+    border: solid 1px rgb(117, 208, 7) ;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.firstpage button:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    color:rgb(117, 208, 7) ;
+}
+/********************************************************SECOND PAGE ****************************************************************/
+.secondpage{
+    background-image: url("background.jpg");
+   
+}
+.secondpage .container{
+
+    display: grid;
+    padding-top: 60px;
+    padding-left: 90px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:repeat(3,400px) ;
+    gap: 50px;
+    
+}
+.secondpage h1{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: bolder;
+    
+}
+.secondpage p{
+    color:gray;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    
+}
+.secondpage figure {
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    max-width: 300px;
+}
+.secondpage figcaption {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+    line-height: 30px;
+}     
+.buton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 101px;
+}    
+
+.buton button{
+    color: red;
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 15px;
+    font-size: 15px;
+    
+}                   
+.buton button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+h4{
+    padding-top: 40px;
+    font-weight: bolder;
+}
+/*********************************************************THİRD PAGE*************************************************************************/
+.thirdpage{
+    background-image: url("cell-background-pizza.jpg");
+    background-repeat: no-repeat;
+    padding: 300px 300px 180px 300px;
+}
+.thirdpage .baslik{
+    color: white;
+    background-color:#75D007;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.thirdpage h1{
+    color: white;
+    font-size: 48px;
+}
+.thirdpage p{
+    color: rgba(255, 255, 255, 0.644);
+    padding-top: 10px;
+    max-width: 450px;
+    line-height: 1.8;
+    
+}
+.thirdpage .price{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0ch;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+.thirdpage button{
+    color: white;
+    background-color: transparent;
+    width: 140px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 15px;
+}
+.thirdpage button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+/*****************************************************************FOURTH PAGE********************************************************************************/
+.fourthpage{
+    background-color: #75D007;
+    display: flex;
+    padding-left: 300px;
+    height: 350px;
+}
+.fourthpage figure{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.fourthpage h5{
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.fourthpage figcaption{
+    padding-top: 14px;
+    max-width: 900px;
+    color: rgba(255, 255, 255, 0.596);
+    text-align: center;
+    font-size: 11px;
+}
+/***************************************************************FİFTH PAGE***************************************************************************************/
+.fifthpage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.fifthpage h1{
+    color: red;
+    font-weight: bolder;
+    font-size: 52px;
+
+}
+.fifthpage p{
+    color: gray;
+    padding-top: 7px;
+    font-size: 19px;
+}
+
+.fifthpage figure{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-left: 300px;
+}
+.fifthpage figure img{
+    height: 50%;
+}
+
+.fifthpage .jalapeno{
+    padding-top: 160px;
+    padding-left: 30px;
+    text-align: left;
+}
+.jalapeno h1{
+    color: rgba(0, 0, 0, 0.801);
+}
+.jalapeno p{
+    color: gray;
+    max-width: 500px;
+    line-height: 2;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.jalapeno button{
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+   
+}
+.jalapeno button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+.yuvarlaklar{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 50px; 
+ }  
+
+ .yuvarlaklar .yuvarlak{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+.yuvarlaklar .yuvarlak1{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.yuvarlak:hover{
+    background-color: rgb(0, 0, 0);
+}
+/************************************************************************************SİXTH PAGE***********************************************************************/
+.sixthpage{
+    display: flex; 
+    background-color:#232323 ;
+}
+.ilk{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    padding-left: 300px;
+}
+.ilk .call{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: #75D007;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ilk .number{
+    font-size: 30px;
+    color: white;
+}
+.ilk p{
+    color: rgba(255, 255, 255, 0.541);
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.ilk .saat{
+    display: flex;
+}
+
+.ilk .location{
+    display: flex;
+}
+
+.ilk .icons{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.ilk .icons i{
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: white;
+    color: #232323;
+    padding: 9px;
+}  
+.sixthpage figure{
+    margin-left: auto;
+    max-width: 100%;
+}
+/*********************************************************KIRMIZIIIII PARTTTT************************************************************/
+.kirmizipart{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    padding: 48px 0 48px 370px;
+    gap: 480px;
+    font-size: 25px;
+}
+.kirmizipart button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.kirmizipart button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+/******************************************************** footer **************************************************/
+footer{
+    padding: 30px;
+    padding-left: 400px;
+    display: flex;
+    gap: 600px;
+    color: #333;
+    font-size: 15px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+footer ul li:hover{
+    color: red;
+    transition: 0.4s;
+}
